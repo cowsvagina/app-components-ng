@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../../out-tsc/app",
     "types": []
@@ -10,12 +10,5 @@
   ],
   "include": [
     "src/**/*.d.ts"
-  ],
-  "paths": {
-    "@app/*": ["src/app/*"],
-    "@core": ["src/app/core/index"],
-    "@core/*": ["src/app/core/*"],
-    "@shared": ["src/app/shared/index"],
-    "@env/*": ["src/environments/*"]
-  }
+  ]
 }
