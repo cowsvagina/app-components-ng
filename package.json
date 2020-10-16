@@ -19,6 +19,8 @@
     "@angular/platform-browser": "~9.1.12",
     "@angular/platform-browser-dynamic": "~9.1.12",
     "@angular/router": "~9.1.12",
+    "@delon/auth": "^9.5.5",
+    "@delon/theme": "^9.5.5",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -41,6 +43,6 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~3.8.3"
+    "typescript": "~3.9.0"
   }
 }
